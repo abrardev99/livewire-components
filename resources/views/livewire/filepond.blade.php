@@ -5,5 +5,6 @@
         <x-filepond wire:model="avatar" multiple />
         @error('avatar') {{ $message }} @enderror
 {{--        <x-filepond wire:model="avatars" multiple />--}}
+        <button type="button" wire:click="save">Alert</button>
     </div>
 </div>

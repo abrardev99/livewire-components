@@ -20,7 +20,7 @@ class Filepond extends Component
 
     public function save()
     {
-
+        $this->dispatchBrowserEvent('alert', ['type' => 'warning',  'message' => 'Saved']);
     }
 
     public function render()
